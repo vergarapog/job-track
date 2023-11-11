@@ -16,16 +16,18 @@ export const metadata = {
 const RootLayout = (props: Props) => {
   return (
     <html lang="en">
-      <body>
-        <div className="main">
-          <div className="gradient"></div>
-        </div>
+      <Provider>
+        <body className="">
+          <div className="main">
+            <div className="gradient"></div>
+          </div>
 
-        <main className="app">
-          <Nav />
-          {props.children}
-        </main>
-      </body>
+          <main className="app">
+            <Nav />
+            {props.children}
+          </main>
+        </body>
+      </Provider>
     </html>
   );
 };

@@ -9,8 +9,9 @@ const Home = () => {
         <span className="orange_gradient text-center">AI-Powered</span>
       </h1>
       <p className="desc text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-        rerum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni quaerat
+        eaque rerum ad laboriosam aspernatur autem dolorum possimus sed
+        eligendi!
       </p>
 
       <Feed />
